@@ -3,10 +3,10 @@
   <!ENTITY name       "unraid-ripgrep">
   <!ENTITY title      "ripgrep">
   <!ENTITY author     "dtomlinson">
-  <!ENTITY version    "2026.11.01">
-  <!ENTITY upstream   "15.2.0">
-  <!ENTITY package    "unraid-ripgrep-15.2.0-x86_64-2026.11.01">
-  <!ENTITY sha256     "10013c14672fe3782df00223402e88eedddfe5cf02cd1c2c7d593a7d0f69fd7c">
+  <!ENTITY version    "2026.11.23">
+  <!ENTITY upstream   "16.0.0">
+  <!ENTITY package    "unraid-ripgrep-16.0.0-x86_64-2026.11.23">
+  <!ENTITY sha256     "a90260f2b731cdc561eaa741919e87f29f6658712eb1d396e6ac2a6077098577">
   <!ENTITY gitURL     "https://github.com/dtomlinson91/&name;">
   <!ENTITY pluginURL  "&gitURL;/raw/main/&name;.plg">
   <!ENTITY packageURL "&gitURL;/releases/download/&version;/&package;.txz">
@@ -15,6 +15,9 @@
 <PLUGIN name="&name;" author="&author;" version="&version;" pluginURL="&pluginURL;" support="&gitURL;" min="6.8.3">
 
 <CHANGES>
+### 2026.11.23
+- ripgrep 16.0.0
+
 ### 2026.11.01
 - ripgrep 15.2.0
 </CHANGES>
